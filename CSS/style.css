@@ -266,3 +266,25 @@ font-weight: 900;
             box-shadow: 0 10px 20px rgba(238, 112, 22, 0.2);
 
 }
+.nav-pills .nav-link{
+    color:#444;
+    font-weight:600;
+    border-radius:0;
+    padding:15px 25px;
+}
+
+.nav-pills .nav-link.active{
+    color:#D0490C;
+    background:none;
+    border-bottom:3px solid #D0490C;
+}
+.nav-link{
+    transition: .2s;
+
+}
+.nav-link:hover{
+
+    color:#D0490C;
+    background:none;
+    border-bottom:3px solid #D0490C;
+}
