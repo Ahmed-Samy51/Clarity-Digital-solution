@@ -1,0 +1,268 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+:root {
+    --min-color: #D0490C;
+    --bg-color:#FFF9F2;
+    --dark-color: #7F2E12;
+}
+
+.main-bg{
+     background-color: var(--bg-color); 
+}
+.main-tx{
+     color: var(--min-color); 
+}
+.sub-bg{
+         background-color: var(--min-color); 
+}
+.dark-tx{
+    color: var(--dark-color);
+}
+
+
+.ico {
+  width: 36px;
+  height: 36px;
+}
+
+.navbar-nav .nav-link {
+  color: #4b4b4b;
+  font-weight: 500;
+  margin: 0 8px;
+
+}
+
+.navbar-nav .nav-link.active {
+  color: #e8562b;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.navbar-nav .nav-link.disabled {
+  opacity: 0.5;
+}
+/* -------------------------------------- */
+.hero{
+    min-height: calc(100vh - 90px);
+    display: flex;
+    align-items: center;
+    background: #FFF9F2;
+}
+.hero-badge{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 18px;
+    background:#FCE9DA;
+    border-radius:999px;
+    width:fit-content;
+    margin-bottom:30px;
+}
+
+.hero-badge p{
+    margin:0;
+    color:#E3540C;
+    font-weight:600;
+}
+.hero-content h2{
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -2px;
+    margin-bottom: 8px;
+}
+.hero-content p{
+    margin-top:30px;
+    font-size:22px;
+    line-height:1.8;
+    color:#5b6472;
+    max-width:620px;
+}
+.hero-content{
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+}
+.grad-cont1{
+
+    background: linear-gradient(90deg, #E3540C, #7F2E12);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+.cont-color{
+    color:var(--dark-color);
+}
+
+.grad-cont2{
+
+    background: linear-gradient(90deg, #FA8F3A, #EC6015);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+.btn-h{
+    border: none;
+}
+.hero-buttons{
+    display:flex;
+    gap:18px;
+    margin-top:45px;
+}
+.primary-btn{
+
+    width:200px;
+    height:70px;
+    background:#E3540C;
+    color:white;
+    border:none;
+    border-radius:999px;
+    font-size:16px;
+    font-weight:400;
+}
+.secondary-btn{
+
+    width:180px;
+    height:70px;
+    background:white;
+    border:2px solid #d9d9d9;
+    border-radius:999px;
+    font-size:24px;
+    font-weight:400;
+}
+
+.hero-stats{
+
+    margin-top:70px;
+
+    
+}
+
+.hero-stats h3{
+
+    font-size:  34px;
+    color:#E3540C;
+    font-weight:800;
+}
+
+.hero-stats p{
+    font-size:15px;
+    color:#666;
+}
+.hero-right{
+
+    position:relative;
+    width:450px;
+    padding:18px;
+    background:white;
+    border-radius:32px;
+    box-shadow:
+    0 10px 40px rgba(0,0,0,.08);
+
+}
+ 
+  .hero-image img{
+    width: 100%;
+    display: block;
+    border-radius: 22px;
+}
+.top-card,
+.bottom-card{
+
+    position:absolute;
+
+    width:90px;
+
+    height:90px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#E3540C;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 20px 40px rgba(227,84,12,.35);
+
+    z-index:10;
+}
+
+.top-card{
+
+    top:-30px;
+
+    right:-30px;
+}
+
+.bottom-card{
+
+    bottom:-30px;
+
+    left:-30px;
+}
+.statd{
+  text-align: center;
+    
+}
+/* 2 */
+.sec2{
+    width: 100vw;
+    justify-content: center;
+    
+
+}
+.tag2{
+    width:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    padding: 5px 10px;
+    margin-inline:  auto;
+    font-weight: 600;
+    gap: 10px;
+}
+.sec-ad p {
+font-size: 30px;
+font-weight: 900;
+}
+.card{
+    transition:  .3s;
+    border-radius: 16px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+            box-shadow: 0  10px rgba(238, 112, 22, 0.1);
+}
+
+.service-icon{
+    font-size: 18px;
+    color: #ea580c;
+    transition: transform .3s;
+
+}
+
+.card:hover .service-icon{
+    transform: translateY(-10px);
+      color: #ff7a00;
+            box-shadow: 0 10px 20px rgba(238, 112, 22, 0.2);
+
+}
