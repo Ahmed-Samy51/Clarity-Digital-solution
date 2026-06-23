@@ -5,7 +5,9 @@
     margin: 0;
     padding: 0;
 }
+*h4{
 
+}
 body {
     margin: 0;
     font-family: "Inter", sans-serif;
@@ -14,6 +16,13 @@ body {
     --min-color: #D0490C;
     --bg-color:#FFF9F2;
     --dark-color: #7F2E12;
+    --light-bl: #E8F2FF;
+    --light-gr:#EAFCF0;
+    --light-ye:#FEFBDD;
+    --light-vio:#F8F1FF;
+    --light-re:#FEEBEB;
+    --light-or:#FFF5E8;
+    
 }
 
 .main-bg{
@@ -28,6 +37,25 @@ body {
 .dark-tx{
     color: var(--dark-color);
 }
+.light-blue{
+    background-color: var(--light-bl);
+}
+.light-green{
+    background-color: var(--light-gr);
+}
+.light-yellow{
+    background-color: var(--light-ye);
+}
+.light-violet{
+    background-color: var(--light-vio);
+}
+.light-red{
+    background-color: var(--light-re);
+}
+.light-orange{
+    background-color: #FFF5E8 ;
+}
+
 
 
 .ico {
@@ -287,4 +315,32 @@ font-weight: 900;
     color:#D0490C;
     background:none;
     border-bottom:3px solid #D0490C;
+}
+.icon { 
+    width:fit-content ;
+    padding: 10px 5px;   
+}
+.card h4{
+    color: var(--dark-color);
+    font-weight: 600;
+    font-size: medium;
+}
+.card p{
+    color: gray;
+}
+.tag3{
+    margin-inline:auto ;
+
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius:45px ;
+    font-size: small;
+    font-weight: 600;
+    color: var(--min-color);
+    text-align: center;
+    align-content: center;
+    
+
 }
