@@ -344,3 +344,40 @@ font-weight: 900;
     
 
 }
+/* <---------------------------------------------------------------> */
+
+.testimonial-slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.testimonial-card {
+  flex: 0 0 100%;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #d1d5db;
+  cursor: pointer;
+  transition: background 0.3s, width 0.3s;
+}
+
+.dot.active {
+  background: #f97316;
+  width: 24px;
+  border-radius: 4px;
+}
